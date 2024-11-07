@@ -54,47 +54,7 @@
 		<h3>CFU 12</h3>
 		<iframe frameborder="0" width="50%" height="400px" 
 		src="https://py3.codeskulptor.org/#user309_uYApATkdXs51Gdt.py">
-#10/21/24
-#PD 5-6
-#CFU 10
-#create a line of code where it asks the user to choose a number from 1-10 and the
-#computer will choose a number from 1-10, if the guess is too high then it will tell you
-#if the number is low the computer will tell you, at the end you will find the number of attempts
 
-import random
-random_num = int(random.randint(1,10))
-def Game(attempt):
-
-    guess = int(input("What is your guess from 1-10"))
-    attempt = attempt + 1
-    if guess == random_num:
-        print(f"You guessed it in {attempt} attempts")
-    elif guess > random_num:
-        print("Too high")
-        Game(attempt)
-    else:
-        print("Too low")
-        Game(attempt)
-    
-attempt = 0
-guess = 0
-Game(attempt)</iframe>
-		<h3>CFU 11</h3>
-		<iframe frameborder="0" width="50%" height="400px" 
-		src=""></iframe>
-		<h3>CFU 12</h3>
-		<iframe frameborder="0" width="50%" height="400px" 
-		src=""></iframe>
-		
-	</div>
-	<div class="menu">MENU
-        <a href="index.html">Home</a>
-	<a href="CFU.html">CFUs</a>
-	<a href="LABS.html">Labs</a>
-	<a href="PROJECTS.html">Projects</a>
-	
-	<a href="">About</a>
-	<a href="">Earsketch</a>
 
 	</div>
 
