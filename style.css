@@ -8,7 +8,13 @@ html,body{
 }
 button{
 	border: 2px solid
-	
+}
+button:hover{
+	width: 150px;
+  	height: 80px;
+  	background-color: red;
+  	transition-timing-function: ease-out;
+  	transition-delay: 0.5s
 }
 .banner{
 	background-color: rgba(159,166,104,0.4);
