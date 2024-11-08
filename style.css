@@ -6,6 +6,10 @@ html,body{
 *{
 	box-sizing: border-box;
 }
+button{
+	border: 2px solid
+	
+}
 .banner{
 	background-color: rgba(159,166,104,0.4);
 	margin: 15px;
@@ -20,6 +24,7 @@ html,body{
 	text-align: right;
 	font-style: oblique;
 }
+
 h1{
 	font-size: 0.7em;
 }
